@@ -1,3 +1,11 @@
+import {
+    sortedArray100,
+    unsortedArray10,
+    unsortedArray5,
+    unsortedArray100,
+    unsortedArray200
+} from './data.js'
+
 function binarySearch(array, valueToFind) {
     let minIndex = 0;
     let maxIndex = array.length - 1;
