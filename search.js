@@ -6,6 +6,15 @@ import {
     unsortedArray200
 } from './data.js'
 
+function simpleSearch(array, valueToFind) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === valueToFind) {
+            return `искомое значение находится на позиции ${i}`;
+        }
+    }
+    return `искомое значение ${valueToFind} отсутствует в массиве`
+}
+
 function binarySearch(array, valueToFind) {
     let minIndex = 0;
     let maxIndex = array.length - 1;
@@ -24,4 +33,3 @@ function binarySearch(array, valueToFind) {
     }
     return `искомое значение ${valueToFind} отсутствует в массиве`;
 }
-
