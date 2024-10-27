@@ -44,3 +44,11 @@ const unsortedArray200 = [
     45, 92, 83, 69, 63, 62, 5, 52, 58, 46,
     75, 10, 23, 81, 87, 89, 82, 98, 51, 94
 ];
+
+export {
+    sortedArray100,
+    unsortedArray10,
+    unsortedArray5,
+    unsortedArray100,
+    unsortedArray200,
+}
